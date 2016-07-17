@@ -6,8 +6,8 @@ import java.util.concurrent.ArrayBlockingQueue;
 public class Tail {
 
     public static void main(String[] args) throws IOException {
-    // first arg should be a filename
     ArrayBlockingQueue q = new ArrayBlockingQueue(2);
+    // first arg should be a filename
     if(args.length == 0){
       System.err.println("Please provide at least a filename as an argument.");
     }else{
